@@ -2,7 +2,7 @@ import React from 'react'
 
 function SidebarRow({ title, }) {
   return (
-    <div>
+    <div className="sidebarRow">
         <h2>{title}</h2>
     </div>
   )
